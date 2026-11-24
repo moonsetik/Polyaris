@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_row" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:minHeight="48dp" android:orientation="horizontal" android:gravity="center_vertical"
+    android:paddingTop="4dp" android:paddingBottom="4dp">
+    <ImageView android:id="@+id/widget_check" android:layout_width="30dp" android:layout_height="32dp"
+        android:scaleType="center" android:importantForAccessibility="no"/>
+    <TextView android:id="@+id/widget_task_title" android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:paddingStart="6dp" android:maxLines="2" android:ellipsize="end"
+        android:textSize="15sp" android:textColor="#202037"/>
+    <TextView android:id="@+id/widget_task_time" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:paddingStart="6dp" android:paddingEnd="4dp"
+        android:textSize="12sp" android:textColor="#626479"/>
+</LinearLayout>
